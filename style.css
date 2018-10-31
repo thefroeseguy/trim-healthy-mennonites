@@ -107,9 +107,14 @@ p {
 .instagram {
     width: 95%;
     margin: 25px auto;
-    padding: 80px 25px 25px;
+    padding: 25px 25px 25px;
     background-color: #8398b5;
     
+}
+
+#wordmark {
+    width: 50%;
+    padding-bottom: 15px;
 }
 
 .biline {
