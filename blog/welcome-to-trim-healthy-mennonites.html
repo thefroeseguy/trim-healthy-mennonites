@@ -9,18 +9,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!--    FONT AWESOME  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <header>
         <img src="../thmennonites-logo.png" alt="The Trim Healthy Mennonites Logo" class="main-logo">
-            <ul class="navbar col-md-8 justify-content-around mx-auto">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../recipes.html">Recipes</a></li>
-                <li><a href="../blog.html">Blog</a></li>
-                <li><a href="#" data-toggle="modal" data-target="#contact">Contact</a></li>
-            </ul>
+        <ul class="navbar container justify-content-around mx-auto">
+            <div class="row">
+                <li class="col-md-3 col-6"><a href="../index.html">Home</a></li>
+                <li class="col-md-3 col-6"><a href="../recipes.html">Recipes</a></li>
+                <li class="col-md-3 col-6"><a href="../blog.html">Blog</a></li>
+                <li class="col-md-3 col-6"><a href="#" data-target="#contact" data-toggle="modal" >Contact</a></li>
+            </div>
+        </ul>
     </header>
     
     <article class="main-content">
@@ -38,7 +42,6 @@
 
             <p>Nam fermentum felis in dui imperdiet iaculis. Pellentesque ut tellus quis erat tincidunt molestie. Morbi condimentum vel metus eu iaculis. Phasellus ullamcorper in leo at ullamcorper. Cras velit diam, tempus vel mollis quis, blandit id ex. Aenean pulvinar varius elit in rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse cursus, sapien in commodo maximus, lectus nisl efficitur ipsum, a dignissim metus ex nec arcu. Quisque venenatis eleifend facilisis. Aliquam erat volutpat. Nullam bibendum leo at nunc blandit efficitur at at dolor. Donec sit amet laoreet est. Proin id risus lacus. Nunc condimentum neque sit amet libero commodo, et aliquet tortor cursus. Etiam magna lacus, tincidunt nec congue ornare, gravida imperdiet nisi.</p>
             </div>
-        </div>
     </article>
     
 <!-- Modal -->
@@ -88,10 +91,20 @@
     
     
     
-<footer class="main-footer">
-    <p>&copy; 2018. Designed and developed by Dwayne Froese.</p>
-    <span><a href="https://www.instagram.com/trimhealthymennonites/" target="_blank"><img src="../instagram-icon.png" alt="A linked icon to our Instagram account"></a>
-    <a href="mailto:charissa_dwaynefroese@hotmail.com"><img src="../Mail-Icon.png" alt="A linked icon to send us an email"></a></span>
-</footer>    
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <p class="col-12 mx-auto text-center">&copy; 2018. Designed and developed by Dwayne Froese.</p>
+                <div class="col-12 mx-auto text-center">
+                   <a href="https://www.instagram.com/trimhealthymennonites/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:charissa_dwaynefroese@hotmail.com">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>    
 </body>
 </html>
